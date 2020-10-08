@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>InHop</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" /> -->
+    <link rel="stylesheet" href="css/all.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="render.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a class="navbar-title" href="#"><svg height="100%" xmlns="http://www.w3.org/2000/svg"
+                viewBox="93.67999877929688 11.580004882812503 312.64000244140624 126.839990234375"
+                preserveAspectRatio="xMidYMid">
+                <defs>
+                    <filter id="editing-extrude-glow">
+                        <feFlood flood-color="rgba(20%,20%,20%,0)" result="flood-1"></feFlood>
+                        <feMorphology operator="erode" radius="1" in="SourceAlpha" result="erode"></feMorphology>
+                        <feComposite operator="in" in="flood-1" in2="erode" result="comp1"></feComposite>
+                        <feConvolveMatrix order="3,3" divisor="1" in="comp1" result="convolve"
+                            kernelMatrix="0 0 0 1 1 1 0 0 0"></feConvolveMatrix>
+                        <feOffset dx="-3" dy="0" in="convolve" result="extrude"></feOffset>
+                        <feComposite operator="in" in="flood-1" in2="extrude" result="comp-extrude"></feComposite>
+                        <feFlood flood-color="#000000" result="flood-2"></feFlood>
+                        <feComposite operator="in" in="flood-2" in2="SourceAlpha" result="comp2"></feComposite>
+                        <feMorphology operator="dilate" radius="1" in="comp2" result="dilate"></feMorphology>
+                        <feOffset dx="-4.5" dy="0" in="dilate" result="offset"></feOffset>
+                        <feGaussianBlur in="offset" stdDeviation="5.8" result="blur"></feGaussianBlur>
+                        <feComponentTransfer in="blur" result="shadow">
+                            <feFuncA type="linear" slope="0.8" intercept="-0.2"></feFuncA>
+                        </feComponentTransfer>
+                        <feMerge>
+                            <feMergeNode in="shadow"></feMergeNode>
+                            <feMergeNode in="comp-extrude"></feMergeNode>
+                            <feMergeNode in="SourceGraphic"></feMergeNode>
+                        </feMerge>
+                    </filter>
+                </defs>
+                <g filter="url(#editing-extrude-glow)">
+                    <g transform="translate(142.029296875, 97.404296875)">
+                        <path
+                            d="M5.75-44.81L12.16-44.81L12.16 0L5.75 0L5.75-44.81ZM30.06-34.75L30.06 0L23.66 0L23.66-44.81L30.06-44.81L57-10.06L57-44.81L63.41-44.81L63.41 0L57 0L30.06-34.75ZM106.97-44.81L113.38-44.81L113.38 0L106.97 0L106.97-19.19L81.31-19.19L81.31 0L74.91 0L74.91-44.81L81.31-44.81L81.31-25.59L106.97-25.59L106.97-44.81ZM163.28-38.41L163.28-6.41L163.28-6.41Q163.28-5.09 162.78-3.92L162.78-3.92L162.78-3.92Q162.28-2.75 161.41-1.88L161.41-1.88L161.41-1.88Q160.53-1 159.36-0.50L159.36-0.50L159.36-0.50Q158.19 0 156.88 0L156.88 0L131.28 0L131.28 0Q129.97 0 128.80-0.50L128.80-0.50L128.80-0.50Q127.63-1 126.75-1.88L126.75-1.88L126.75-1.88Q125.88-2.75 125.38-3.92L125.38-3.92L125.38-3.92Q124.88-5.09 124.88-6.41L124.88-6.41L124.88-38.41L124.88-38.41Q124.88-39.72 125.38-40.89L125.38-40.89L125.38-40.89Q125.88-42.06 126.75-42.92L126.75-42.92L126.75-42.92Q127.63-43.78 128.80-44.30L128.80-44.30L128.80-44.30Q129.97-44.81 131.28-44.81L131.28-44.81L156.88-44.81L156.88-44.81Q158.19-44.81 159.36-44.30L159.36-44.30L159.36-44.30Q160.53-43.78 161.41-42.92L161.41-42.92L161.41-42.92Q162.28-42.06 162.78-40.89L162.78-40.89L162.78-40.89Q163.28-39.72 163.28-38.41L163.28-38.41ZM156.88-38.41L131.28-38.41L131.28-6.41L156.88-6.41L156.88-38.41ZM181.19 0L174.78 0L174.78-44.81L199.31-44.81L199.31-44.81Q210.19-44.81 210.19-33.91L210.19-33.91L210.19-27.53L210.19-27.53Q210.19-16.63 199.31-16.63L199.31-16.63L181.19-16.63L181.19 0ZM181.19-38.41L181.19-23.03L198.97-23.03L198.97-23.03Q201.53-23.03 202.66-24.16L202.66-24.16L202.66-24.16Q203.78-25.28 203.78-27.84L203.78-27.84L203.78-33.59L203.78-33.59Q203.78-36.16 202.66-37.28L202.66-37.28L202.66-37.28Q201.53-38.41 198.97-38.41L198.97-38.41L181.19-38.41Z"
+                            fill="#ff4544"></path>
+                    </g>
+                </g>
+                <style>
+                    text {
+                        font-size: 64px;
+                        font-family: Arial Black;
+                        dominant-baseline: central;
+                        text-anchor: middle;
+                    }
+                </style>
+            </svg></a>
+        <div class="navbar-btns">
+            <div id="min-btn" class="navbar-btn"><svg aria-hidden="false" width="12" height="12" viewBox="0 0 12 12">
+                    <rect fill="currentColor" width="10" height="1" x="1" y="6"></rect>
+                </svg></div>
+            <div id="max-btn" class="navbar-btn"><svg aria-hidden="false" width="12" height="12" viewBox="0 0 12 12">
+                    <rect width="9" height="9" x="1.5" y="1.5" fill="none" stroke="currentColor"></rect>
+                </svg>
+            </div>
+            <div id="close-btn" class="navbar-btn"><svg aria-hidden="false" width="12" height="12" viewBox="0 0 12 12">
+                    <polygon fill="currentColor" fill-rule="evenodd"
+                        points="11 1.576 6.583 6 11 10.424 10.424 11 6 6.583 1.576 11 1 10.424 5.417 6 1 1.576 1.576 1 6 5.417 10.424 1">
+                    </polygon>
+                </svg>
+            </div>
+        </div>
+    </nav>
+
+    <div class="msg-div" id="msg-div"></div>
+
+    <div class="login-page">
+        <div class="wrapper">
+            <img src="img/temp_logo.png" class="logo">
+            <form class="login-form" id="login-form">
+                <input type="text" id="username" placeholder="username" required />
+                <input type="password" id="password" placeholder="password" required />
+                <button class="login-btn show" id="login-btn" type="submit">Login</button>
+                <button class="login-btn flexed" id="loading-btn">
+                    <div class="loader"></div>
+                </button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
